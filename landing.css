@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.search-bar {
+    width: 50%;
+    margin-left: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.trending {
+    margin-bottom: 40px;
+}
+
+.trending h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: calc(33.33% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.offers {
+    text-align: center;
+}
+
+.offers h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.offers-card {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.offer-item {
+    flex: 1;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.offer-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.offer-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 2px solid #e8f4f8;
+}
+
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
