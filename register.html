@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li style="color:white; list-style-type: none; font-size:20px;">GaadiWaala</li>
+        </ul>
+        <input type="text" class="search-bar" placeholder="Search">
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Registration</h1>
+        </header>
+        <form class="registration-form" id="registrationForm">
+            <div class="photo-upload">
+                <div class="photo-preview-container">
+                    <img src="https://via.placeholder.com/150" alt="Profile Photo" id="photoPreview">
+                </div>
+                <input type="file" id="photoInput" accept="image/*">
+                <button type="button" id="uploadButton">Upload Photo</button>
+            </div>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="language">Language:</label>
+                <input type="text" id="language" name="language" required>
+            </div>
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the <a href="#terms">Terms & Conditions</a>
+                </label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="about.html">About Us</a>
+            </div>
+            <p>&copy; 2024 Gaadi Wala. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="register.js"></script>
+</body>
+
+</html>
